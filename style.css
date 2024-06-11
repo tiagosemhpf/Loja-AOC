@@ -2,7 +2,8 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-.navbar {
+.navbar,
+footer {
     background-color: #1D1D1D;
 }
 
@@ -23,7 +24,8 @@ body {
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-cardapio .nav-link.active:hover,
+footer {
     color: #fff;
 }
 
@@ -32,26 +34,12 @@ body {
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: Montserrat, sans-serif;
 }
 
 #sobre-o-restaurante,
 #cardapio {
     background-color: #ffeae6;
-}
-
-.text-colored {
-    color: #e15f41;
-}
-
-.nav-cardapio .nav-link.active,
-#fale-conosco button {
-    background-color: #e15f41;
-    color: #ffeae6;
-}
-
-.nav-cardapio .nav-link:hover {
-    color: #e15f41;
 }
 
 .social-links li {
